@@ -7,7 +7,7 @@ It's still a work ongoing.
 
 ### Todos
 
-1. Finish Header
+1. Finish Header - DONE
 2. Finish Card stylishing and props injecting
 3. Create component to hold the list of products - DONE
 4. Do some additional functionalities on clickable elements

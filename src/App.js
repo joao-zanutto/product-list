@@ -1,4 +1,5 @@
-import { Grid, AppBar } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
+import Header from './components/Header';
 import ItemListing from './components/ItemListing';
 
 const products = [
@@ -27,6 +28,24 @@ const products = [
 			'https://serenata.vteximg.com.br/arquivos/ids/163118-1000-1000/VIOLAO-MICHAEL-VMA320-NA_IMG2.jpg?v=637461624974830000',
 		available: true,
 	},
+	{
+		id: 4,
+		title: 'Violão Avançado',
+		price: 'R$ 9299,99',
+		brand: 'Memphis',
+		img:
+			'https://serenata.vteximg.com.br/arquivos/ids/163118-1000-1000/VIOLAO-MICHAEL-VMA320-NA_IMG2.jpg?v=637461624974830000',
+		available: true,
+	},
+	{
+		id: 5,
+		title: 'Violão Avançado',
+		price: 'R$ 9299,99',
+		brand: 'Memphis',
+		img:
+			'https://serenata.vteximg.com.br/arquivos/ids/163118-1000-1000/VIOLAO-MICHAEL-VMA320-NA_IMG2.jpg?v=637461624974830000',
+		available: true,
+	},
 ];
 
 function App() {
@@ -34,11 +53,11 @@ function App() {
 		<div className='App'>
 			<Grid container direction='column'>
 				<Grid item>
-					<AppBar>hey</AppBar>
+					<Header />
 				</Grid>
 				<Grid item container>
 					<Grid item xs={0} sm={2} />
-					<ItemListing products={products}></ItemListing>
+					<ItemListing products={products} />
 					<Grid item xs={0} sm={2} />
 				</Grid>
 			</Grid>

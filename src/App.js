@@ -51,7 +51,7 @@ const products = [
 function App() {
 	return (
 		<div className='App'>
-			<Grid container direction='column'>
+			<Grid container direction='column' spacing={4}>
 				<Grid item>
 					<Header />
 				</Grid>

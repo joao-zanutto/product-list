@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
 	root: {
-		maxWidth: 345,
+		maxWidth: 545,
 	},
 });
 
@@ -17,12 +17,12 @@ export default function Item({ product }) {
 	const classes = useStyles();
 
 	return (
-		<Card className={classes.root}>
+		<Card align='left' className={classes.root}>
 			<CardActionArea>
 				<CardMedia
 					component='img'
 					alt='Contemplative Reptile'
-					height='400'
+					height='500'
 					image={product.img}
 					title='Contemplative Reptile'
 				/>

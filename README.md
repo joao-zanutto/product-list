@@ -9,5 +9,5 @@ It's still a work ongoing.
 
 1. Finish Header
 2. Finish Card stylishing and props injecting
-3. Create component to hold the list of products
+3. Create component to hold the list of products - DONE
 4. Do some additional functionalities on clickable elements

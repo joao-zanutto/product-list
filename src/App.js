@@ -1,5 +1,5 @@
 import { Grid, AppBar } from '@material-ui/core';
-import Item from './components/Item';
+import ItemListing from './components/ItemListing';
 
 const products = [
 	{
@@ -38,17 +38,7 @@ function App() {
 				</Grid>
 				<Grid item container>
 					<Grid item xs={0} sm={2} />
-					<Grid item container xs={12} sm={8} spacing={4} align='center'>
-						<Grid xs={12} sm={4} item>
-							<Item product={products[0]}> content </Item>
-						</Grid>
-						<Grid xs={12} sm={4} item>
-							<Item product={products[1]}> content </Item>
-						</Grid>
-						<Grid xs={12} sm={4} item>
-							<Item product={products[2]}> content </Item>
-						</Grid>
-					</Grid>
+					<ItemListing products={products}></ItemListing>
 					<Grid item xs={0} sm={2} />
 				</Grid>
 			</Grid>
